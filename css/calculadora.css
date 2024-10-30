@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding-top: 100px;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+#calculadora{
+    width: 500px;
+    height: 700px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+    .indicator{
+        width: 100%;
+        height: 75px;
+        border-radius: 20px;
+        background-color: #444;
+        padding: 10px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        p{
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-overflow: ellipsis;
+            white-space: nowrap; 
+            overflow: hidden;
+           
+        }
+    }
+
+    #numbers{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .row{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+    
+        }
+    
+        .number{
+            width: 25%;
+            height: 75px;
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    
+        .operation{
+            width: 25%;
+            height: 75px;
+            background-color: #868686;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    
+        .copyright{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            color: rgb(114, 114, 114);
+            font-size: 1.2rem;
+            font-weight: bold;
+            
+        }
+        
+        .igual{
+            width: 50%;
+            height: 75px;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+
+    
+}

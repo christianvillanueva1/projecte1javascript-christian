@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+section{
+    padding: 150px 0;
+}
+h1{
+    text-align: center;
+    color: blue;
+    border-bottom: 1px solid #ccc;
+    margin: 25px 50px;
+}
+
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 20px;
+}
+.element{
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
