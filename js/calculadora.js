@@ -29,13 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let equalPressed = false;
 
 
-    deleteButton.addEventListener('click', () => {
-        if(display.textContent.length === 1){
-            display.textContent = '0';
-        } else{
-            display.textContent = display.textContent.slice(0, -1);
-        }
-    });
+
 
 
     numbers.forEach(number => {
@@ -55,6 +49,14 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
         });
+    });
+
+    deleteButton.addEventListener('click', () => {
+        if(display.textContent.length === 1){
+            display.textContent = '0';
+        } else{
+            display.textContent = display.textContent.slice(0, -1);
+        }
     });
 
 
