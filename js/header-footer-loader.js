@@ -9,9 +9,9 @@ function loadNavbarFooter() {
         <a href="/index.html">CHRISTIAN</a>
       </div>
       <div class="nav-head">
-        <a href="calculadora.html">CALCULADORA</a>
-        <a href="jsonplaceholder.html">JSONPlaceholder</a>
-        <a href="dummyjson.html">DUMMYJson</a>
+        <a href="/views/calculadora">CALCULADORA</a>
+        <a href="/views/jsonplaceholder">JSONPlaceholder</a>
+        <a href="/views/dummyjson">DUMMYJson</a>
       </div>
     </nav>
             `;
